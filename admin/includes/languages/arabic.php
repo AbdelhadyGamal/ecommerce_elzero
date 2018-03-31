@@ -1,0 +1,13 @@
+<?php 
+
+function lang($phrase) {
+    static $lang=array(
+        'MESSAGE' => 'ãÑÍÈÇ',
+        'ADMIN'=>'ãÏíÑ ÇáãæÞÚ'
+        
+    );
+    return $lang[$phrase];
+}
+
+
+?>
