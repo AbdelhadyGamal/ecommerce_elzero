@@ -6,8 +6,14 @@ function lang($phrase) {
         
         //home page
         'MESSAGE' => 'Welcome',
-        'ADMIN'=>'Adminstartor'
+        'ADMIN'=>'Adminstartor',
         //settings
+
+	    //navbar
+	    'Navbar'=>'Navbar',
+	    'Action'=>'Action'
+
+
     );
     return $lang[$phrase];
 }
